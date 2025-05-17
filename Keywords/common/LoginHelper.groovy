@@ -22,15 +22,6 @@ import internal.GlobalVariable
 
 public class LoginHelper {
 	static void login(String email, String password) {
-		def baseUrl = GlobalVariable.base_url
-		try {
-			WebUI.navigateToUrl(baseUrl)
-			WebUI.maximizeWindow()
-		} catch(BrowserNotOpenedException){
-			WebUI.openBrowser(baseUrl)
-			WebUI.maximizeWindow()
-		}
-		sleep(1000)
 		WebUI.setText(findTestObject('Object Repository/Login/input_Email_useremail'), email)
 		WebUI.setText(findTestObject('Object Repository/Login/input_Password_userpassword'), password)
 		WebUI.click(findTestObject('Object Repository/Login/input_Password_commit'))

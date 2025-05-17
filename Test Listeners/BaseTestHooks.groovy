@@ -28,9 +28,15 @@ class BaseTestHooks {
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@BeforeTestCase
-	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
-		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseVariables()
+	def openBrowser() {
+		def baseUrl = GlobalVariable.base_url
+		try {
+			WebUI.navigateToUrl(baseUrl)
+			WebUI.maximizeWindow()
+		} catch(BrowserNotOpenedException){
+			WebUI.openBrowser(baseUrl)
+			WebUI.maximizeWindow()
+		}
 	}
 
 	/**
