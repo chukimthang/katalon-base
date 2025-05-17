@@ -6,11 +6,12 @@
    <UUID>65379154-4e56-450d-881f-d853344d50e7</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>10.1.1</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>10.1.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Volumes/DATA/IT/Projects/Katalon/katalon-base/katalon-base.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>listTitle</name>
+   <tag></tag>
+   <elementGuidId>41d4ec4d-af4a-45b1-a5f3-5743625ef315</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.my-4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layoutSidenav_content']/main/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>4f039eff-2b21-4521-ac66-e986ffc103cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-4</value>
+      <webElementGuid>8118bd7f-516a-4ca4-980e-e74229d8df83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Chỉ số điện nước</value>
+      <webElementGuid>4debcc38-b307-449c-95eb-3fe26d4ff518</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layoutSidenav_content&quot;)/main[1]/div[@class=&quot;container-fluid px-5&quot;]/h1[@class=&quot;my-4&quot;]</value>
+      <webElementGuid>1b8beec5-b189-4a5b-b0a8-c9af5e2c76bf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layoutSidenav_content']/main/div/h1</value>
+      <webElementGuid>f9107697-095d-45ec-a178-2ce249433394</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tiết kiệm'])[1]/following::h1[1]</value>
+      <webElementGuid>d2e144b0-5799-4d5a-916e-92928afd3c64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đầu tư vàng'])[1]/following::h1[1]</value>
+      <webElementGuid>754b2133-3f0f-45ea-961a-d8621da4039b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nhập chỉ số'])[1]/preceding::h1[1]</value>
+      <webElementGuid>d5ec0f28-97ba-4a7a-91b1-c567d487b520</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tháng ▼'])[1]/preceding::h1[1]</value>
+      <webElementGuid>168130c7-99c0-4401-8ea7-aa08ac09ecb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>101c07c9-28b5-4593-b914-57513ce34f33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Chỉ số điện nước' or . = 'Chỉ số điện nước')]</value>
+      <webElementGuid>0d170677-b92d-4514-9ff6-a64db8c94040</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

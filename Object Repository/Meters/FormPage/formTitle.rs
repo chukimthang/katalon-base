@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>formTitle</name>
+   <tag></tag>
+   <elementGuidId>1bcddf79-a45e-4270-9ce5-83252cbed759</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.my-4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layoutSidenav_content']/main/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>c1c1f729-7673-4fc5-9546-1cf9171f4864</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-4</value>
+      <webElementGuid>8d8aafce-07fb-45cc-bbd8-ab4888e08da4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nhập chỉ số</value>
+      <webElementGuid>e68d1f29-1ad7-4421-91fd-cfca1e72027a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layoutSidenav_content&quot;)/main[1]/div[@class=&quot;container-fluid px-5&quot;]/h1[@class=&quot;my-4&quot;]</value>
+      <webElementGuid>54acda85-5d4e-46a7-9dfa-6e406f607d5e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layoutSidenav_content']/main/div/h1</value>
+      <webElementGuid>31376376-f0e6-411f-8bba-f8e098f11ae8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tiết kiệm'])[1]/following::h1[1]</value>
+      <webElementGuid>c9d3c0b1-16b8-4c8b-a2e9-b5e4b7214be9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đầu tư vàng'])[1]/following::h1[1]</value>
+      <webElementGuid>594f182f-4d2f-403f-80de-ed649ac4f0c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::h1[1]</value>
+      <webElementGuid>96938843-43ef-4872-8a32-14ce9c40fbf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Nhập chỉ số']/parent::*</value>
+      <webElementGuid>7ca9baae-7efa-4cbe-b724-35167533e1ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>018febfc-3fb6-44a2-a7f6-1b76c93515ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Nhập chỉ số' or . = 'Nhập chỉ số')]</value>
+      <webElementGuid>3c723260-c7de-4563-9e84-4d2368fd8818</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
