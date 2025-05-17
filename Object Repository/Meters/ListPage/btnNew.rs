@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnNew</name>
+   <tag></tag>
+   <elementGuidId>06012111-99c2-4a27-a8ba-54a73b1d4f93</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layoutSidenav_content']/main/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d8d7b42d-97ff-4ee0-a448-f7f31af23b0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>e4012bb7-cb83-4833-a79d-884f76378df2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/meters/new</value>
+      <webElementGuid>c40a0361-7ca3-42b4-83ae-d89f2e6667b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nhập chỉ số</value>
+      <webElementGuid>f256a5be-d696-4f43-bf42-d066233b2146</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layoutSidenav_content&quot;)/main[1]/div[@class=&quot;container-fluid px-5&quot;]/a[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>7565a50b-5c7e-4eef-b458-261602c98a39</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layoutSidenav_content']/main/div/a</value>
+      <webElementGuid>30e5ea40-f044-419e-bcce-ae85e33756cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Nhập chỉ số')]</value>
+      <webElementGuid>ad52e78e-724f-49a4-8f4a-0420849661a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chỉ số điện nước'])[2]/following::a[1]</value>
+      <webElementGuid>9ece91a3-342e-4875-b12d-58dddfb1916c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tiết kiệm'])[1]/following::a[1]</value>
+      <webElementGuid>61a42224-a4cf-48ae-be04-1d62c635a001</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tháng ▼'])[1]/preceding::a[1]</value>
+      <webElementGuid>3fa1b700-2c2f-4c84-b308-b872f0d4f13a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chỉ số điện'])[1]/preceding::a[2]</value>
+      <webElementGuid>c4d5aa40-8a74-4299-86cd-11a1d64c037e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Nhập chỉ số']/parent::*</value>
+      <webElementGuid>9cc9c371-ecad-470f-ad70-463e5487c04f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/meters/new')]</value>
+      <webElementGuid>41d77f00-dd8b-44ae-b12c-f8cfa0a6bb38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/a</value>
+      <webElementGuid>8191f734-7a4d-4dd4-94c6-13da6ec6d7bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/meters/new' and (text() = 'Nhập chỉ số' or . = 'Nhập chỉ số')]</value>
+      <webElementGuid>3875eea3-c06d-4ab7-a2f5-03a5ae457f5c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

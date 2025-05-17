@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Bng iu khin</name>
+   <tag></tag>
+   <elementGuidId>49d048cd-59f1-4bb4-86e4-260465910041</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.my-4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layoutSidenav_content']/main/div[2]/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>ec287d0e-8516-477b-8393-5b5de6569c72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-4</value>
+      <webElementGuid>2c6789b1-3405-4bea-89e5-20f53588a688</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bảng điều khiển</value>
+      <webElementGuid>9116f651-58c1-4623-8ff7-f0a2b1ac0f94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layoutSidenav_content&quot;)/main[1]/div[@class=&quot;container-fluid px-4&quot;]/h1[@class=&quot;my-4&quot;]</value>
+      <webElementGuid>63e6d3ac-e860-463b-a3c7-061d679ec155</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layoutSidenav_content']/main/div[2]/h1</value>
+      <webElementGuid>59839f30-0fbb-41e5-9a40-12bd74e02998</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signed in successfully.'])[1]/following::h1[1]</value>
+      <webElementGuid>1e36cfd6-e4e7-4d43-a823-47f3bda27898</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tiết kiệm'])[1]/following::h1[1]</value>
+      <webElementGuid>731ad898-f33b-49f3-9f76-63657eab9e6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Năm'])[1]/preceding::h1[1]</value>
+      <webElementGuid>aeb467de-1555-431a-b00d-01f7ea12a6af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>af3b67e3-b9c8-439e-abbe-9e5425cd58c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Bảng điều khiển' or . = 'Bảng điều khiển')]</value>
+      <webElementGuid>538f240c-7c07-4586-9f21-b25838273042</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
