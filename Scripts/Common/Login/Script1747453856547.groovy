@@ -16,21 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import common.LoginHelper
 
-def baseUrl = GlobalVariable.base_url
 def email = GlobalVariable.email
 def password = GlobalVariable.password
-
-try {
-	 WebUI.navigateToUrl(baseUrl)
-	 WebUI.maximizeWindow()
-} catch(BrowserNotOpenedException){
-	 WebUI.openBrowser(baseUrl)
-	 WebUI.maximizeWindow()
-}
-sleep(1000)
-WebUI.setText(findTestObject('Object Repository/Login/input_Email_useremail'), email)
-WebUI.setText(findTestObject('Object Repository/Login/input_Password_userpassword'), password)
-WebUI.click(findTestObject('Object Repository/Login/input_Password_commit'))
-sleep(1000)
-WebUI.verifyElementText(findTestObject('Object Repository/Login/h1_Bng iu khin'), 'Bảng điều khiển')
+LoginHelper.login(email, password)
