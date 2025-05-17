@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UpdateMeter_EmptyFields</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>21a465c9-2d09-428c-b975-4b3a0372c9d5</testCaseGuid>
+</TestCaseEntity>
