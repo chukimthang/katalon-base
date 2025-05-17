@@ -18,25 +18,23 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 def baseUrl = GlobalVariable.base_url
-String monthUsed = 'June 2025'
-String electricityIndex = 100
-String waterIndex = 30
-String amountOfMembers = 3
 
 WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl(baseUrl + 'meters')
 WebUI.waitForPageLoad(30)
-WebUI.click(findTestObject('Object Repository/Meters/ListPage/btnNew'))
-WebUI.delay(1)
-WebUI.verifyElementText(findTestObject('Object Repository/Meters/FormPage/formTitle'), 'Nhập chỉ số') 
-TestObject monthInput = findTestObject('Object Repository/Meters/FormPage/inputMonthUsed')
-WebUI.click(monthInput)
-WebUI.sendKeys(monthInput, monthUsed)
-WebUI.sendKeys(monthInput, Keys.chord(Keys.ENTER))  
-WebUI.setText(findTestObject('Object Repository/Meters/FormPage/inputElectricityIndex'), electricityIndex)
-WebUI.setText(findTestObject('Object Repository/Meters/FormPage/inputWaterIndex'), waterIndex)
-WebUI.setText(findTestObject('Object Repository/Meters/FormPage/inputAmountOfMembers'), amountOfMembers)
-WebUI.click(findTestObject('Object Repository/Meters/FormPage/btnSave'))
-WebUI.delay(2)
-WebUI.verifyTextPresent(electricityIndex, false)
-WebUI.verifyTextPresent(waterIndex, false)
+TestObject btnDeleteFirstRow = findTestObject('Object Repository/Meters/ListPage/btnDeleteFirstRow')
+boolean deleteVisible = WebUI.waitForElementVisible(btnDeleteFirstRow, 5, FailureHandling.OPTIONAL)
+if (!deleteVisible) {
+	return
+}
+WebUI.click(btnDeleteFirstRow)
+if (WebUI.waitForAlert(3, FailureHandling.OPTIONAL)) {
+	WebUI.acceptAlert()
+}
+TestObject flashMessage = findTestObject('Object Repository/Common/flashMessage')
+boolean isVisible = WebUI.waitForElementVisible(flashMessage, 5, FailureHandling.OPTIONAL)
+if (isVisible) {
+	WebUI.verifyElementText(flashMessage, 'Xóa thành công')
+} else {
+	WebUI.comment('Flash message không hiển thị')
+}

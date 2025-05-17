@@ -17,3 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+def baseUrl = GlobalVariable.base_url
+String electricityIndex = 100
+
+WebUI.callTestCase(findTestCase('Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl(baseUrl + 'meters')
+WebUI.waitForPageLoad(30)
+WebUI.click(findTestObject('Object Repository/Meters/ListPage/btnNew'))
+WebUI.delay(1)
+WebUI.verifyElementText(findTestObject('Object Repository/Meters/FormPage/formTitle'), 'Nhập chỉ số')
+WebUI.setText(findTestObject('Object Repository/Meters/FormPage/inputElectricityIndex'), electricityIndex)
+WebUI.click(findTestObject('Object Repository/Meters/FormPage/btnSave'))
+WebUI.delay(1)
+WebUI.verifyTextPresent('Tạo thất bại', false)
